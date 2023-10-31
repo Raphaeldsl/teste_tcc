@@ -21,8 +21,12 @@
             <span class="password-toggle-icon" onclick="togglePasswordVisibility('insenha')">
                 <i class="bi bi-eye-slash"></i>
             </span>
-        </div>        
+        </div>
         <div class="d-flex justify-content-end align-items-center">
+            <a class="link-offset-2 link-underline link-underline-opacity-0" href="../Login/esqueceusenha.html">Esqueceu sua senha?</a>
+        </div>
+               
+        <div class="d-flex align-items-center">
             <p class="mb-0 me-2">Não possui uma conta?</p>
             <a class="link-offset-2 link-underline link-underline-opacity-0" href="../Cadastro/cadastro.html">Cadastrar</a>
         </div>
@@ -48,7 +52,8 @@
          <button type="button" id="btnentrar" class="btn btn-outline-danger">Login</button>
          </div>
     </form>
-    <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
     <script src="login.js"></script>
     <script src="../Cadastro/config.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
