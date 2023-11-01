@@ -112,3 +112,8 @@ body {
 container{
     padding: 20px;
 }
+.logo {
+    width: 300px; /* Largura desejada para o logotipo */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin-left: -500px; 
+}

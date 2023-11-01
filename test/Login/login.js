@@ -36,7 +36,7 @@ googleButton.addEventListener('click', () => {
         .then((result) => {
             const user = result.user;
             console.log('Usuário logado com o Google:', user);
-            window.location.href = 'Home/home_index.html';
+            window.location.href = '../Home/home_index.html';
         })
         .catch((error) => {
             console.error('Erro ao autenticar com o Google:', error);

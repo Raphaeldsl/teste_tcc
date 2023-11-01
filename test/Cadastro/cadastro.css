@@ -96,3 +96,14 @@ body {
     font-weight: bold;
     padding: 0 10px;
 }
+.logo-and-form {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para o logotipo */
+.logo {
+    width: 300px; /* Largura desejada para o logotipo */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin-left: -500px; 
+}

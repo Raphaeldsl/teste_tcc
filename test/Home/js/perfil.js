@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Use Firebase para fazer logout do usuário
                 auth.signOut().then(function () {
                     // Redirecione o usuário para a página de login ou outra página apropriada.
-                    window.location.href = 'login.html';
+                    window.location.href = '../Login/login.html';
                 }).catch(function (error) {
                     console.error('Erro ao fazer logout:', error);
                 });
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             // O usuário não está autenticado
             // Redirecione o usuário para a página de login
-            window.location.href = 'login.html';
+            window.location.href = '../Login/login.html';
         }
     });
 });
